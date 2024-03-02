@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
+    , url(bckgrnd.jpg);
+    /* color: white; */
+    color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem; */
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.logopic{
+    width: 100px;
+    height: auto;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.navlinks li:hover{
+    color: whitesmoke;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
