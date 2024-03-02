@@ -1,2 +1,2 @@
 # GalaxiaKicks
-A website for Galaxia Kicks, a retail &amp; wholesale entity in kenya
+A website for Galaxia Kicks, a retail and wholesale entity in kenya
